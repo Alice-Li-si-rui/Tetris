@@ -1,0 +1,1 @@
+# 本项目使用Python标准库tkinter，无需额外依赖
