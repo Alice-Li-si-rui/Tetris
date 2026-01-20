@@ -196,6 +196,7 @@ class Game:
         """显示游戏结束画面"""
         self.final_score_var.set(f"得分: {self.tetris.score}")
         self.game_over_frame.place(x=50, y=200, width=BOARD_WIDTH*BLOCK_SIZE, height=200)
+        self.game_started = False  # 游戏结束后设置为未开始状态
     
     def draw_board(self):
         """绘制游戏板"""
